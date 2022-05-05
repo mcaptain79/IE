@@ -1,0 +1,54 @@
+/*body style*/
+body {
+    background-image: url("darthwader.jpeg");
+    background-size: 1600px;
+    background-repeat: no-repeat;
+}
+/*this id is for greeting and welcoming to web page*/
+#greeting{
+    position: relative;
+    left: 600px;
+    color: cyan;
+}
+/*this id is for saving our content in middle of page*/
+#middle{
+    position: relative;
+    left: 500px;
+    top: 150px;
+    width: 360px;
+    height: 460px;
+    background-color: whitesmoke;
+}
+/*just giving a color to our h3 tag*/
+h3{
+    color: rebeccapurple;
+}
+/*giving our buttons background color*/
+button{
+    background-color: #4d94ea;
+}
+/*giving pre a good style*/
+pre{
+    color: #00A000;
+    font-weight: bold;
+}
+/*giving div a style*/
+div{
+    color: #00A000;
+}
+/*showing information on hoover*/
+/* for showing tooltip text */
+.tooltipText {
+    visibility: hidden;
+    width: 600px;
+    background-color: #55f8db;
+    color: #002fc5;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+}
+/* Show the tooltip text when you hover */
+.tooltip:hover .tooltipText {
+    visibility: visible;
+    opacity: 1;
+}
